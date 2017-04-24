@@ -48,7 +48,7 @@ var settings = module.exports = {
     autoInstallModules: true,
 
     // Move the admin UI
-    httpAdminRoot: '/home',
+    httpAdminRoot: '/red',
     
     httpNodeAuth: {user:"iotdashboard",pass:"$2a$08$nT1S2OAmxtDZFdHIrbpO7OcEty/U277/BlhsxtVC4ItSGo8oEImZW"},
 
