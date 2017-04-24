@@ -50,7 +50,7 @@ var settings = module.exports = {
     // Move the admin UI
     httpAdminRoot: '/home',
     
-    httpNodeAuth: {user:"iotdashboard",pass:"spbrswglab"},
+    httpNodeAuth: {user:"iotdashboard",pass:"$2a$08$nT1S2OAmxtDZFdHIrbpO7OcEty/U277/BlhsxtVC4ItSGo8oEImZW"},
 
     // Serve up the welcome page
     httpStatic: path.join(__dirname,"public"),
