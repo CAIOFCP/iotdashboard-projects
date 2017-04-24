@@ -48,7 +48,9 @@ var settings = module.exports = {
     autoInstallModules: true,
 
     // Move the admin UI
-    httpAdminRoot: '/red',
+    httpAdminRoot: '/home',
+    
+    httpNodeAuth: {user:"iotdashboard",pass:"spbrswglab"},
 
     // Serve up the welcome page
     httpStatic: path.join(__dirname,"public"),
